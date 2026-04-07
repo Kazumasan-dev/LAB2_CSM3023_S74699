@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!--
+ * author: MUHAMMAD AIMAN BIN ZAMRI
+ * Matriks No: S74699
+ * LAB:2 EXRECISE
+ * PROGRAM:CSM3023
+ * DATE: 7/4/2026-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Product Inventory System</h2>
+        <form action="InsertProductServlet" method="POST">
+            <!--Product name label and input-->
+            <label>Product Name:</label><br>
+            <input type="text" name="name" required><br><br>
+            <!--Product category label and input-->
+            <label>Category:</label><br>
+            <input type="text" name="category" required><br><br>
+            <!--Product price label and input-->
+            <label>Price:</label><br>
+            <input type="number" step="0.01" name="price" required><br><br>
+            <!--Product qty label and input-->
+            <label>Quantity:</label><br>
+            <input type="number" name="quantity" required><br><br>
+            
+            <!--submit button-->
+            <input type="submit" value="Add Product">
+        </form>
+
+    </body>
+</html>
